@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    height: 100%;
+    width: 100%;
+    background-color: #171923;
+    color: #fff;
+    font-family: 'Ubuntu';
+}
+
+
+/* Navbar  */
+
+.nav{
+    padding: 0.6vw 5vw 0.6vw 5vw; 
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #171923;
+    position: fixed;
+    color: #fff;
+}
+
+
+.nav .nav-sec-1{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 4px;
+}
+
+.nav .nav-sec-1 .logo img{
+  height: 50px;
+  margin-right: 10px;
+}
+
+.nav .nav-sec-2{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav .nav-sec-2 .nav-sec-2-1{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav .nav-sec-2 a{
+    text-decoration: none;
+    transition:all 1s ease-in;
+    color: #fff;
+}
+
+.nav .nav-sec-2 .nav-sec-2-1 a:hover{
+    text-decoration: underline;
+}
+
+
+.nav .nav-sec-2 .nav-sec-2-2{
+    width: 35%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav .nav-sec-2-2 .register{
+    height: 35px;
+    width: 70px;
+    background-color: crimson;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    cursor: pointer;
+    color: #fff;
+    padding: 0.5vw 3vw;
+    border-radius: 20px;
+}
+
+.nav .nav-sec-2-2  .register:hover{
+    background-color: #fff;
+    color: crimson;
+}
+.register a{
+    color: #fff;
+    
+}
+
+
+/* Hero Section  */
+
+.hero{
+    height: 100vh;
+    width: 100%;
+}
+
+.hero-sec-1{
+    padding-top: 40px;
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.hero-sec-1 h1{
+  font-size: 5em;
+}
+
+
+.hero-sec-1 h3{
+    font-size: 1.2em;
+}
+
+.hero-sec-1 a{
+    text-decoration: none;
+    height: 35px;
+    width: 70px;
+    background-color: crimson;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    cursor: pointer;
+    color: #fff;
+}
+
+.hero-sec-2{
+    height: 30%;
+    width: 100%;
+    padding: 0 5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    text-align: center;
+}
+
+.hero-sec-2 .hero-stat{
+    height: 10vw;
+    width: 12vw;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 10px;
+  
+    justify-content: center;
+    color: crimson;
+}
+
+.hero-sec-2 .hero-stat .num{
+    font-size: 2em;
+}
+
+.hero-sec-2 .hero-stat .about-num{
+    font-size: 1.5em;
+}
+
+/* Page - 2 */
+
+.page-2{
+    padding: 100px 5vw;
+    height: 100vh;
+    width: 100%;
+}
+
+.page-2 h1{
+    font-size: 2.6em;
+    font-weight: 400;
+    height: 4.5vw;
+    width: 16vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-2 .top-video {
+    height: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page-2 .top-video .top-video-box{
+    height: 95%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    align-items: center;
+}
+
+.page-2 .top-video .top-video-box img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.page-2 .top-video .top-video-box .watch{
+    height: 2.5vw;
+    width: 7vw;
+    background-color: rgb(202, 124, 88);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.page-2 .top-video .top-video-box a{
+    text-decoration: none;
+    color: #000;
+}
+
