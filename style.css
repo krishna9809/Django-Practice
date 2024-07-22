@@ -101,26 +101,41 @@
 .hero{
     height: 100vh;
     width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 6vw 5vw;
+}
+.hero .hero-sec-2 img{
+    height: 400px;
 }
 
 .hero-sec-1{
     padding-top: 40px;
-    height: 70%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 25px;
+    height: 100%;
+    width: 60%;
+display: flex;
+flex-direction: column;
+gap: 18px;
 }
 
-.hero-sec-1 h1{
+.hero-sec-1 .hero-upper-sec h1{
   font-size: 5em;
+  line-height: 1;
+  
 }
 
 
-.hero-sec-1 h3{
-    font-size: 1.2em;
+
+
+.hero-sec-1 .hero-upper-sec h3{
+    font-size: 1.3em;
+    font-weight: 200;
+    width: 68%;
+    line-height: 1.2;
+}
+
+.hero-sec-1 .hero-upper-sec .multi-atoms{
+    color: crimson;
 }
 
 .hero-sec-1 a{
@@ -129,24 +144,55 @@
     width: 70px;
     background-color: crimson;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     cursor: pointer;
     color: #fff;
 }
 
-.hero-sec-2{
-    height: 30%;
-    width: 100%;
-    padding: 0 5vw;
+.hero-sec-1 .hero-upper-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 20px;
+
+}
+
+.hero-lower-sec{
+    height: 250px;
+    width: 70%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: baseline;
-    text-align: center;
+    align-items: left;
+
 }
 
-.hero-sec-2 .hero-stat{
+.hero-upper-sec .hero-text-3{
+    height: 35px;
+    width: 70px;
+    background-color: crimson;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    cursor: pointer;
+    color: #fff;
+    padding: 0.5vw 5vw;
+    border-radius: 20px;
+    transition: all 0.5s ease;
+    font-size: 1.2em;
+}
+
+.hero-upper-sec .hero-text-3:hover{
+    background-color: #fff;
+    color: crimson;
+}
+.hero-text-3 a{
+    color: #fff;
+    
+}
+
+.hero-lower-sec .hero-stat{
     height: 10vw;
     width: 12vw;
     display: flex;
@@ -155,15 +201,16 @@
     gap: 10px;
   
     justify-content: center;
-    color: crimson;
 }
 
-.hero-sec-2 .hero-stat .num{
+.hero-lower-sec .hero-stat .num{
     font-size: 2em;
+    color: #fff;
 }
 
-.hero-sec-2 .hero-stat .about-num{
+.hero-lower-sec .hero-stat .about-num{
     font-size: 1.5em;
+    color: crimson;
 }
 
 /* Page - 2 */
@@ -172,7 +219,59 @@
     padding: 100px 5vw;
     height: 100vh;
     width: 100%;
+    text-align: center;
 }
+
+
+#feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  #feature .fe-box {
+    width: 23%;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px #0000004d;
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    margin: 15px 0;
+  }
+  
+  #feature .fe-box:hover {
+    box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+  }
+  #feature .fe-box img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  #feature .fe-box a {
+    display: inline-block;
+    padding: 9px 12px 6px 12px;
+    text-decoration: none;
+    line-height: 1;
+    border-radius: 4px;
+    color: crimson;
+    background-color: rgb(255, 255, 255);
+  }
+
+
+  .page-2 h2 {
+    font-size: 46px;
+    line-height: 54px;
+    color: #fff;
+}
+
+.page-2 p {
+    font-size: 16px;
+    color: crimson;
+    margin: 15px 0 20px 0;
+}
+
+
 
 .page-2 h1{
     font-size: 2.6em;
@@ -220,4 +319,3 @@
     text-decoration: none;
     color: #000;
 }
-
