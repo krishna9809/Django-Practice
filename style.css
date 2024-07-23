@@ -26,7 +26,6 @@
     position: fixed;
     color: #fff;
     z-index: 1000000;
-    box-shadow: 0 2px 4px 0 rgba(255, 255, 255, 0.2);
 }
 
 
@@ -88,13 +87,10 @@
     align-items: center;
     cursor: pointer;
     color: #fff;
-    padding: 0.5vw 3vw;
+    padding: 0.5vw 4vw;
     border-radius: 20px;
 }
 
-.nav .nav-sec-2-2 .humbars{
-    display: none;
-}
 
 .nav .nav-sec-2-2  .register:hover{
     background-color: #fff;
@@ -104,8 +100,47 @@
     color: #fff;
 }
 
+.nav .nav-sec-2 .humbars{
+    font-size: 26px;
+    font-weight: 100;
+    display: none;
+}
+
 
 /* sidebar*/
+
+.full-scr {
+    height: 100vh;
+    width: 100%;
+    background-color: #00000070;
+    position: fixed;
+    z-index: 99;
+    top: -100%;
+    transition: all ease 0.5s;
+}
+
+.full-div1 {
+    height: 50%;
+    width: 100%;
+    background-color: #171923;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: #fff;
+    padding-top: 100px;
+    padding-right: 14px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    gap: 10px;
+}
+
+.full-div1 a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 2.5em;
+    font-weight: 300;
+
+}
 
 
 /* Hero Section  */
@@ -751,13 +786,15 @@ footer {
         padding: 3vw 2vw 3vw 2vw;
     }
 
-    .nav .nav-sec-2 .humbars{
-        font-size: 26px;
-        font-weight: 100;
-    }
 
     .nav .nav-sec-2-2 .humbars{
         display: flex;
+    }
+
+    #faq {
+        padding: 3em 0em;
+        background-color: #fff;
+        text-align: center;
     }
   
 }

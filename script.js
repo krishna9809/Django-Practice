@@ -20,3 +20,22 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+
+function menuAnimation() {
+
+    var menu = document.querySelector(".nav .nav-sec-2 .humbars")
+    var full = document.querySelector(".full-scr")
+    var flag = 0
+    menu.addEventListener("click", function () {
+        if (flag == 0) {
+            full.style.top = 0
+            flag = 1
+        } else {
+            full.style.top = "-100%"
+            flag = 0
+        }
+    })
+}
+
+
+menuAnimation()
