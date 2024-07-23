@@ -26,6 +26,7 @@
     position: fixed;
     color: #fff;
     z-index: 1000000;
+    box-shadow: 0 2px 4px 0 rgba(255, 255, 255, 0.2);
 }
 
 
@@ -42,6 +43,9 @@
   margin-right: 10px;
 }
 
+.nav .nav-sec-1 .logo-text{
+    font-size: 1.7em;
+}
 .nav .nav-sec-2{
     width: 50%;
     display: flex;
@@ -60,6 +64,7 @@
     text-decoration: none;
     transition:all 1s ease-in;
     color: #fff;
+    font-size: 1.2rem;
 }
 
 .nav .nav-sec-2 .nav-sec-2-1 a:hover{
@@ -87,6 +92,10 @@
     border-radius: 20px;
 }
 
+.nav .nav-sec-2-2 .humbars{
+    display: none;
+}
+
 .nav .nav-sec-2-2  .register:hover{
     background-color: #fff;
     color: crimson;
@@ -107,7 +116,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 0 5vw;
     padding-top: 10vw;
     padding-bottom: 2vw;
@@ -117,7 +126,6 @@
 
 
 .hero .hero-upper-sec{
-     height: 60%;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -174,7 +182,6 @@
 
 .hero-lower-sec{
     width: 100%;
-    height: 30%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -204,7 +211,6 @@
 /* Page - 2 */
 .page-2 {
     padding: 100px 5vw;
-    min-height: 100vh;
     width: 100%;
     text-align: center;
     background-color: #fff;
@@ -692,28 +698,66 @@ footer {
         font-size: 1em;
     }
 
+
     .nav .nav-sec-1 .logo img {
-        height: 30px;
+        height: 40px;
         margin-right: 10px;
     }
 
     .nav .nav-sec-1 .logo-text{
-        font-size: 6vw;
+        font-size: 5vw;
     }
-    .nav .nav-sec-2 {
+
+    .nav .nav-sec-2 .nav-sec-2-1 {
         width: 0%;
         display: flex;
         justify-content: space-between;
         align-items: center;
         visibility: hidden;
+
+    }
+
+    .nav .nav-sec-2 {
+        width: 51%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav .nav-sec-2 .nav-sec-2-2 {
+        width: 95%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: right;
+        margin-top: 9px;
+    }
+ 
+    .nav .nav-sec-2 a {
+        text-decoration: none;
+        transition: all 1s ease-in;
+        color: #fff;
+        font-size: 13px;
     }
 
     .nav .nav-sec-1 {
-        width: 70%;
+        width: 48%;
         display: flex;
         align-items: center;
         justify-content: flex-start;
         margin-top: 9px;
+    }
+
+    .nav {
+        padding: 3vw 2vw 3vw 2vw;
+    }
+
+    .nav .nav-sec-2 .humbars{
+        font-size: 26px;
+        font-weight: 100;
+    }
+
+    .nav .nav-sec-2-2 .humbars{
+        display: flex;
     }
   
 }
