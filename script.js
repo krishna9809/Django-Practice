@@ -38,7 +38,7 @@ function menuAnimation() {
     })
 }
  
-menuAnimation()
+
 
 function Notesclose() {
 
@@ -50,7 +50,6 @@ function Notesclose() {
  
 }
 
-Notesclose()
 
 function Videoclose() {
 
@@ -61,6 +60,6 @@ function Videoclose() {
 })
  
 }
-
-
+menuAnimation()
+Notesclose()
 Videoclose()
