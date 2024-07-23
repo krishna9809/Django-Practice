@@ -25,6 +25,7 @@ function menuAnimation() {
 
     var menu = document.querySelector(".nav .nav-sec-2 .humbars")
     var full = document.querySelector(".full-scr")
+    var stop = document.querySelector(".full-scr .full-div1 .notes-btn")
     var flag = 0
     menu.addEventListener("click", function () {
         if (flag == 0) {
@@ -36,6 +37,30 @@ function menuAnimation() {
         }
     })
 }
-
-
+ 
 menuAnimation()
+
+function Notesclose() {
+
+    var stop = document.querySelector(".full-scr .full-div1 .notes-btn")
+    var full = document.querySelector(".full-scr")
+    stop.addEventListener("click", function () {
+            full.style.top = "-100%"
+})
+ 
+}
+
+Notesclose()
+
+function Videoclose() {
+
+    var stopVideo = document.querySelector(".full-scr .full-div1 .video-btn")
+    var full = document.querySelector(".full-scr")
+    stopVideo.addEventListener("click", function () {
+            full.style.top = "-100%"
+})
+ 
+}
+
+
+Videoclose()
