@@ -469,7 +469,7 @@ footer {
     color: #fff;
     padding: 2em 1em;
     text-align: center;
-    border: 1px solid #cce7d0;
+    border-top: 1px solid #cce7d0;
 }
 
 .footer-container {
