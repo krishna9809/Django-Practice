@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 /* Base styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Ubuntu';
+    
     margin: 0;
     padding: 0;
     color: #333;
@@ -10,7 +13,7 @@ body {
 /* Dashboard styling */
 #user-dashboard {
     padding: 20px;
-    padding-top: 80px;
+    padding-top: 90px;
 }
 
 .profile-section {
@@ -106,15 +109,6 @@ body {
 
 /* Responsive styles */
 @media screen and (max-width: 768px) {
-    .nav {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .nav-links {
-        margin-top: 10px;
-    }
-
     .profile-header {
         flex-direction: column;
         align-items: center;
@@ -127,5 +121,13 @@ body {
 
     .profile-details {
         text-align: center;
+    }
+}
+
+
+
+@media (max-width: 600px) {
+    .nav .nav-sec-1 .logo-text {
+        font-size: 3vw;
     }
 }
